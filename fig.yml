@@ -1,0 +1,10 @@
+mylamp:
+   image: lamp:t1
+   volumes:
+    - /home/ubuntu/key_test1.pub:/keys    
+    - /home/ubuntu/key_test1:/myprivkey
+#   links:
+#     - mywebssh:mywebssh
+
+   command: /run.sh
+ 
